@@ -1,0 +1,31 @@
+.popup {
+  position: fixed;
+  z-index: 20;
+  height: 100%;
+  width: 100%;
+}
+.popup .popup-title {
+  height: 60px;
+  background: #fff;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popup .popup-title h3{
+  font-size: 18px;
+}
+.popup .popup-title i{
+  font-size: 18px;
+}
+.popup .popup-content{
+  height: calc(100% - 60px );
+  background: #ccc;
+}
+.mask{
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background: rgba(0, 0, 0, .5);
+}
